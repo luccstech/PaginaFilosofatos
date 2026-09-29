@@ -3,6 +3,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: column;
+    background-color: #ffffff;
 }
 
 /*---------HEADER---------*/
@@ -43,5 +44,36 @@ nav a {
 }
 
 nav a:hover {
-    color: #e6e6e6;
+    color: #CCCCCC;
+}
+
+/*---------MAIN---------*/
+main {
+    flex: 1;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: #231F20;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+div {
+    margin-bottom: 40px;
+    /*espaço entre cada div*/
+}
+
+/*---------IMAGEM DO PITAGORAS E TEXTO---------*/
+.bio_pitagoras {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.bio_pitagoras img {
+    border-radius: 8px;
+}
+
+.bio_pitagoras p {
+    max-width: 600px;
 }
