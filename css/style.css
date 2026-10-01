@@ -276,6 +276,10 @@ footer a:hover {
 
     .menu-icon {
         display: block;
+        color: #ffffff;
+        font-size: 28px;
+        cursor: pointer;
+        line-height: 1;
     }
 
     nav .menu {
