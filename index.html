@@ -5,6 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="description" content="Site educativo sobre introdução à filosofia, conceitos de pensadores clássicos, formulário interativo e galerias visuais.">
+    <meta name="keywords" content="filosofia, pitágoras, aristóteles, platão, sócrates, karl marx, descartes, educação, ensino médio">
+    <meta name="author" content="Lucas Quaresma">
+
+    <meta property="og:title" content="Filosofatos - Introdução à Filosofia">
+    <meta property="og:description" content="Explore conceitos da filosofia, conheça grandes pensadores e compartilhe sua reflexão em um site educativo completo.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://luccstech.github.io/PaginaFilosofatos/">
+    <meta property="og:image" content="https://luccstech.github.io/PaginaFilosofatos/img/logoFilosofatos.png">
+    <meta property="og:locale" content="pt_BR">
+
     <link rel="stylesheet" href="css/modern-normalize.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -31,7 +42,7 @@
                 <li><a href="#introducao">Introdução</a></li>
                 <li><a href="#galeria">Galeria</a></li>
                 <li><a href="#reflexoes">Reflexões</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#curiosidades">Curiosidades</a></li>
             </ul>
         </nav>
     </header>
@@ -203,6 +214,108 @@
                         <small class="credito">Imagem: <a
                                 href="https://amenteemaravilhosa.com.br/rene-descartes-biografia/" target="_blank"
                                 rel="noopener">A Mente é Maravilhosa</a>.</small>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="reflexoes">
+            <h2>Deixe sua reflexão</h2>
+            <p>Compartilhe sua perspectiva ou questionamento filosófico conosco através do formulário abaixo:</p>
+
+            <form action="#" method="post" class="form-reflexao">
+                <div class="form-grid">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required placeholder="seu@email.com">
+
+                    <label for="data">Data da Reflexão:</label>
+                    <input type="date" id="data" name="data" required>
+
+                    <label for="idade">Idade:</label>
+                    <input type="number" id="idade" name="idade" min="10" max="120" required placeholder="Sua idade">
+
+                    <label for="mensagem">Sua Reflexão:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required
+                        placeholder="Escreva sua reflexão filosófica..."></textarea>
+                </div>
+
+                <div class="form-submit">
+                    <button type="submit">Enviar Reflexão</button>
+                </div>
+            </form>
+        </section>
+
+        <section id="curiosidades">
+            <h2>Curiosidades Filosóficas</h2>
+            <p>Fatos históricos e locais que marcaram o pensamento ocidental.</p>
+
+            <div class="grid-galeria-extra">
+                <figure>
+                    <img src="img/atenasAntiga.jpg" alt="Atenas Antiga" width="960" height="459" loading="lazy">
+                    <figcaption>
+                        <h3>Atenas</h3>
+                        <p>Berço da democracia e da filosofia clássica.</p>
+                        <small class="credito">Imagem: <a
+                                href="https://commons.wikimedia.org/wiki/File:View_of_the_Acropolis_Athens_(pixinn.net).jpg"
+                                target="_blank" rel="noopener">Wikimedia Commons</a> (Domínio Público).</small>
+                    </figcaption>
+
+                </figure>
+
+                <figure>
+                    <img src="img/manuscritoFilosofico.jpg" alt="Manuscritos filosóficos" width="1150" height="1351"
+                        loading="lazy">
+                    <figcaption>
+                        <h3>Reflexões Escritas</h3>
+                        <p>O registro do pensamento moderno.</p>
+                        <small class="credito">Imagem: <a href="https://www.antigoporto.com.br/peca.asp?ID=25015587"
+                                target="_blank" rel="noopener">Antigoporto Leilões</a>.</small>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="img/teoremaPitagoras.jpg" alt="Teorema de Pitágoras" width="533" height="375"
+                        loading="lazy">
+                    <figcaption>
+                        <h3>A Geometria e a Mente</h3>
+                        <p>A harmonia matemática e filosófica.</p>
+                        <small class="credito">Imagem: <a href="https://www.instagram.com/p/DJby2fXx47n/"
+                                target="_blank" rel="noopener">rodrigoaiosa</a> (Instagram).</small>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="img/escolaAtenas.jpg" alt="Escola de Atenas" width="1170" height="790" loading="lazy">
+                    <figcaption>
+                        <h3>O Saber e os Sentidos</h3>
+                        <p>A investigação sistemática da natureza.</p>
+                        <small class="credito">Imagem: <a
+                                href="https://commons.wikimedia.org/wiki/File:Escola_de_Atenas_-_Vaticano_2.jpg"
+                                target="_blank" rel="noopener">Wikimedia Commons</a> (Domínio Público).</small>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="img/ilhaSamos.jpg" alt="Ilha de Samos" width="1280" height="960" loading="lazy">
+                    <figcaption>
+                        <h3>Berço de Pitágoras</h3>
+                        <p>Ilha onde o filósofo Pitágoras nasceu.</p>
+                        <small class="credito">Imagem: <a href="https://commons.wikimedia.org/wiki/File:Samos.jpg"
+                                target="_blank" rel="noopener">Wikimedia Commons</a> (Domínio Público).</small>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="img/alexandria.jpeg" alt="Cidade de Alexandria" width="1061" height="554" loading="lazy">
+                    <figcaption>
+                        <h3>Cidade de Alexandria</h3>
+                        <p>O maior farol do conhecimento do mundo antigo.</p>
+                        <small class="credito">Imagem: <a
+                                href="https://xtravel.com.br/o-que-fazer-em-alexandria/"
+                                target="_blank" rel="noopener">Xtravel</a>.</small>
                     </figcaption>
                 </figure>
             </div>
