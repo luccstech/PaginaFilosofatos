@@ -28,6 +28,15 @@ a:hover {
     color: var(--cor-cinza-texto);
 }
 
+main .credito a {
+    color: #b33600;
+    font-weight: 600;
+}
+
+main .credito a:hover {
+    color: #231F20;
+}
+
 main {
     flex: 1;
     max-width: 1000px;

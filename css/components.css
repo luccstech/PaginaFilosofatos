@@ -52,7 +52,6 @@ nav a:hover {
     color: var(--cor-destaque);
 }
 
-/* Seção: Introdução */
 #introducao figure,
 #introducao div {
     margin-bottom: 40px;
@@ -95,7 +94,6 @@ nav a:hover {
     margin: 0;
 }
 
-/* Seção: Galeria */
 #galeria {
     display: flex;
     flex-direction: column;
@@ -149,7 +147,6 @@ nav a:hover {
     font-style: italic;
 }
 
-/* Seção: Reflexões (Formulário) */
 #reflexoes {
     margin-top: 60px;
     padding-top: 20px;
@@ -215,7 +212,6 @@ nav a:hover {
     background-color: var(--cor-destaque-hover);
 }
 
-/* Seção: Curiosidades */
 #curiosidades {
     margin-top: 60px;
     padding-top: 20px;
@@ -270,7 +266,6 @@ nav a:hover {
     color: #555555;
 }
 
-/* Rodapé */
 footer {
     display: flex;
     flex-direction: column;
@@ -323,7 +318,6 @@ footer a:hover {
     color: var(--cor-fundo);
 }
 
-/* Responsividade (Mobile) */
 @media (max-width: 768px) {
     header {
         padding: 10px 20px;
