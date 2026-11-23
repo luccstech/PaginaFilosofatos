@@ -18,10 +18,14 @@
 
     <link rel="stylesheet" href="css/modern-normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="canonical" href="https://luccstech.github.io/PaginaFilosofatos/">
+    <link rel="icon" type="image/png" href="img/favicon.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=SUA+FONTE&display=swap" rel="stylesheet">
+
+    <link rel="preload" as="image" href="img/logoFilosofatos.webp" fetchpriority="high">
 
     <title>Filosofatos - Introdução à Filosofia</title>
 </head>
@@ -30,7 +34,7 @@
     <header>
         <div class="logo">
             <img src="img/logoFilosofatos.png" alt="Logo da página. (Árvore com folhas laranjas)." width="70"
-                height="70">
+                height="70" fetchpriority="high">
             <h1>Filosofatos</h1>
         </div>
 
@@ -166,7 +170,7 @@
             <div class="card_filosofo">
                 <figure>
                     <img src="img/galeriaSocrates.webp" alt="Imagem de uma estátua de Sócrates." width="600"
-                        height="350">
+                        height="350" loading="lazy">
                     <figcaption>
                         <h3>Sócrates</h3>
                         <p>"Só sei que nada sei."</p>
