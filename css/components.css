@@ -15,17 +15,17 @@ header .logo {
     gap: 12px;
 }
 
-header .logo img {
-    width: 70px;
-    height: 70px;
-    object-fit: contain;
-}
-
-header .logo h1 {
+header .logo .nome-site {
     margin: 0;
     font-size: 24px;
     font-weight: bold;
     color: var(--cor-fundo);
+}
+
+header .logo img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
 }
 
 #menu-toggle,
@@ -156,7 +156,7 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
-#reflexoes > p {
+#reflexoes>p {
     margin-bottom: 30px;
     color: var(--cor-secundaria);
 }
@@ -221,7 +221,7 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
-#curiosidades > p {
+#curiosidades>p {
     margin-bottom: 30px;
     color: var(--cor-secundaria);
 }
@@ -349,7 +349,7 @@ footer a:hover {
         padding: 10px 0;
     }
 
-    #menu-toggle:checked ~ .menu {
+    #menu-toggle:checked~.menu {
         display: flex;
     }
 
